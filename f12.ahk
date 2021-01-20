@@ -2,15 +2,15 @@
 SendMode Input
 SetWorkingDir %A_ScriptDir%
 !F12::
-App = powershell.exe
-IfWinExist, ahk_exe %App%
+app = powershell.exe
+IfWinExist, ahk_exe %app%
 {
-	WinGet, State, MinMax, ahk_exe %App%
+	WinGet, State, MinMax, ahk_exe %app%
 	if (State = -1)
-		WinActivate, ahk_exe %App%
+		WinActivate, ahk_exe %app%
 	else
 	{
-		WinMinimize, ahk_exe %App%
+		WinMinimize, ahk_exe %app%
 	}
 	return
 }
