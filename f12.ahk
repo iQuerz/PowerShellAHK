@@ -1,7 +1,8 @@
 ﻿#NoEnv
 SendMode Input
 SetWorkingDir %A_ScriptDir%
-!F12::
+
+F12::
 app = powershell.exe
 IfWinExist, ahk_exe %app%
 {
@@ -15,4 +16,7 @@ IfWinExist, ahk_exe %app%
 	return
 }
 Run, C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+return
+
+!F12::Send {F12} ;alt+f12 if i want to use regular f12
 return

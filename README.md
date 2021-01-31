@@ -47,7 +47,7 @@ Window Position:
 Done. You can apply the settings and exit the terminal.
 
 ### Step 6, transparency
-This one is completely subjective and optional. I like my window just a bit transparent, so I could see what's actually happening on my monitor. I've included a small program called "glass2k" for this. All you need to do is run it, right click on the glass2k icon in taskbar and launch **settings.** Make sure to check the 'Auto Load' and 'Auto Remember' boxes. Open the terminal using the chosen hotkeys and right click on the title bar. A glass2k transparency option bar should appear. I like my terminal on 80% transparency, set it to your liking and close the menu. You can now go ahead and right click the glass2k icon in the taskbar and exit. The windows stay transparent without it.
+This one is completely subjective and optional. I like my window just a bit transparent, so I could see what's actually happening on my screen behind it. I'm using a small program called [Glass2k](https://chime.tv/products/glass2k.shtml) for this. All you need to do, after installing, is run it, right click on the glass2k icon in taskbar and launch **settings.** Make sure to check the 'Auto Load' and 'Auto Remember' boxes. Open the terminal using the chosen hotkeys and right click on the title bar. A glass2k transparency option bar should appear. I like my terminal on 80% transparency, set it to your liking and close the menu. You can now go ahead and right click the glass2k icon in the taskbar and exit. The windows stay transparent without it.
 
 #### We're done!
 
@@ -63,4 +63,4 @@ This one is completely subjective and optional. I like my window just a bit tran
 
 5 - Setup the size and position
 
-6 - Add light transparency to the terminal
+6 - Add light transparency to the terminal with [Glass2k](https://chime.tv/products/glass2k.shtml)
