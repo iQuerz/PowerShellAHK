@@ -5,7 +5,7 @@
 **The script allows you to bind a certain hotkey or a combination of a few to open/minimize/maximize any program.** The reason why I said Powershell in the script is only my need and intention, therefore, you might change this to anything you want to use it for. Personally, I like the F12 dropdown functionality of Archlinux Guake and I haven't found any articles about re-creating that function on windows, so I figured I'd do it myself. Here's a detailed guide on how to setup everything:
 
 ## How to use:
-For those who know their stuff, there's a short guide with reference on steps on the end of the walkthrough.
+For those who know their stuff, there's a [TL;DR](https://www.autohotkey.com/) on the end of the walkthrough. 
  ### Step 1 (Skip if you have AHK installed)
 AutoHotKey(refered to as AHK in the future) is a little tool for running scripts that catch events on your desktop, for example, keyboard input. Using this, we can catch any key combination we'd like for our task and run the proper code. [Download AHK here](https://www.autohotkey.com/). Once you have installed AHK, you can exit the program and kind of forget about it really... We will only interact with ahk script files from now on.
 
@@ -51,7 +51,7 @@ This one is completely subjective and optional. I like my window just a bit tran
 
 #### We're done!
 
-### For those who already know their stuff, here's a quick guide:
+## TL;DR:
 
 1 - [install AHK](https://www.autohotkey.com/)
 
